@@ -10,7 +10,6 @@ const Skills2 = () => {
       icon: <FaCode />,
       tools: [
         { name: 'React', percentage: 70 },
-        { name: 'Vue', percentage: 50 },
         { name: 'BootStrap', percentage: 70 },
         { name: 'JavaScript', percentage: 90 },
         { name: 'Html5', percentage: 77 },
