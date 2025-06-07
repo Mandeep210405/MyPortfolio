@@ -14,6 +14,7 @@ const Projects = () => {
       KeyFeatures: ['Centralized Record Management','Appointment Scheduling','Recommendations','Location Integration','Insights and Analytics']
     },
     {
+      type:'Degree Project',
       title: 'NEXX (Educational Platform)',
       overview: 'Developed a comprehensive educational platform with centralized access to study materials, practicals, and previous papers for engineering students, featuring a robust content management system, efficient file handling for PDFs, videos, and assignments, and a secure role-based authentication system for administrators.',
       techStack: ['MySQL','PHP 7.4+','JavaScript',' HTML5','Bootstrap','Apache Web Server'],
