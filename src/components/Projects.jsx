@@ -12,6 +12,13 @@ const Projects = () => {
       techStack: ['Html','CSS3','JavaScript','PHP','MySql'],
       githubLink: 'https://github.com/Mandeep210405/TCL',
       KeyFeatures: ['Centralized Record Management','Appointment Scheduling','Recommendations','Location Integration','Insights and Analytics']
+    },
+    {
+      title: 'NEXX (Educational Platform)',
+      overview: 'Developed a comprehensive educational platform with centralized access to study materials, practicals, and previous papers for engineering students, featuring a robust content management system, efficient file handling for PDFs, videos, and assignments, and a secure role-based authentication system for administrators.',
+      techStack: ['MySQL','PHP 7.4+','JavaScript',' HTML5','Bootstrap','Apache Web Server'],
+      githubLink: 'https://github.com/Mandeep210405/TCL-Degree',
+      KeyFeatures: ['Centralized Educational Access','Multi-Branch & Semester Support','Efficient File Management System','Responsive Web Interface','RESTful API Integration','Asynchronous Operations with AJAX']
     }
     // Add more projects here...
   ];
