@@ -8,7 +8,7 @@ const Education = () => {
       title: '10th-SSC',
       company: 'Shree Swaminarayan Gurukul Bhavnagar',
       period: '2019-2020',
-      responsibilities: ['Percentage: 69.33%'],
+      responsibilities: ['Percentage: 60.67%'],
     },
     {
       title: 'Diploma',
