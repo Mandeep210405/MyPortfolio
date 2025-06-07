@@ -1,0 +1,93 @@
+/* Projects Section Styles */
+.projects {
+    color: #f8f9fa;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ff6f61; /* Warm accent color */
+  }
+  
+  /* Projects Grid Layout */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Project Card */
+  .project-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    color: #ff6f61; /* Warm accent color */
+    margin-bottom: 10px;
+  }
+  
+  .project-card .overview {
+    font-size: 1rem;
+    color: #f8f9fa;
+    margin-bottom: 15px;
+  }
+  
+  /* Technology Stack */
+  .tech-stack h4 {
+    font-size: 1.1rem;
+    color: #ff6f61; /* Warm accent color */
+    margin-bottom: 10px;
+  }
+  
+  .tech-stack ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tech-stack ul li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #f8f9fa;
+  }
+  
+  /* GitHub Link */
+  .github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    color: #6c5ce7; /* Light purple/blue accent color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .github-link:hover {
+    color: #ff6f61; /* Warm accent color */
+  }
+  
+  .github-link svg {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
